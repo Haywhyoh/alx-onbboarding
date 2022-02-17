@@ -1,0 +1,17 @@
+Function bubble_sort (input1, input2, input3)
+	accept user input1
+	accept user input2
+	accept user input3
+	unsorted_array = [input1, input2, input3]
+	If input1 > input2
+		//swap the position of input1 and input2
+		unsorted_array[0] = input2
+		unsorted_array[1] = input1
+	Else if input2 > input3
+		//swap position of input2 and input3
+		unsorted_array[1] = input3
+		unsorted_array[2] = input2
+	Else
+		sorted_array = unsorted_array
+		print sorted_array
+	
