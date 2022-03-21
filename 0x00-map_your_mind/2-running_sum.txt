@@ -1,0 +1,7 @@
+Function running_numbers
+    Initialize sum = 0
+    get user input
+    For input > 0
+        sum = input + sum
+        get user input
+    Return sum
